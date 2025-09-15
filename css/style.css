@@ -331,7 +331,7 @@
 
   .container {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 4rem auto;
     padding: 2rem;
     background: var(--background-secondary); /* CONTAINER BACKGROUND */
   }
@@ -594,6 +594,7 @@
   @media (max-width: 600px) {
     .container {
       padding: 1em;
+      margin-top: 2rem;
       background: var(--background-secondary); /* MOBILE CONTAINER BACKGROUND */
     }
 
@@ -670,5 +671,27 @@
       font-size: 0.6rem;
       padding: 0.2rem 0.5rem;
     }
+  }
+
+  .notesSchedule {
+    background-color: var(--background-secondary); /* NOTES BACKGROUND */
+    border-radius: var(--border-radius-small);
+    border: var(--primary-blue) 0.5px solid;
+    padding: 0.76rem;
+    /* text-align: center; */
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+    color: var(--text-secondary); /* NOTES TEXT COLOR */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 600;
+  }
+
+  .iconRight svg {
+    width: 22px;
+    height: 22px;
+    margin-left: 0.25rem;
   }
   /*content*/
