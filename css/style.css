@@ -962,3 +962,29 @@
   padding: 1em;
   margin-top: 4em;
 }
+
+.ddt-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.room-t {
+font-size: 0.875rem;
+  font-weight: 700;
+  color: #7c7000;
+  margin-bottom: 0.75rem;
+  background: linear-gradient(135deg, #fdf9e3 0%, #fbf7bb 100%);
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  border: 1px solid rgba(158, 142, 0, 0.3);
+  width: fit-content;
+  box-shadow: 0 1px 4px rgba(255, 230, 0, 0.1);
+  
+  /* layout */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  
+  transition: all 0.3s ease;
+}
