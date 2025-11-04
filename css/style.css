@@ -703,9 +703,10 @@
   padding: 0.875rem;
   background: linear-gradient(135deg, #f8fbff 0%, #ffffff 100%);
   border: 1px solid rgba(0, 122, 255, 0.2);
-  margin: 12px;
+  margin: 12px auto;
   box-shadow: 0 2px 8px rgba(0, 122, 255, 0.08);
   transition: all 0.3s ease;
+  max-width: 100%; /* Full width on mobile */
 }
 
 .card-dock-jadwal:hover {
@@ -826,41 +827,48 @@
 /* Desktop view - side by side */
 @media (min-width: 769px) {
   .card-dock-jadwal {
-    padding: 1.5rem;
+    padding: 1.25rem;
+    max-width: 800px; /* Limit width on desktop */
   }
   
   .daydueDate {
-    font-size: 1rem;
-    padding: 0.75rem 1rem;
-    margin-bottom: 1rem;
+    font-size: 0.95rem;
+    padding: 0.65rem 0.9rem;
+    margin-bottom: 0.875rem;
   }
   
   .daydueDate .icon {
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
   }
   
   .jadwal-ujian1 {
     flex-direction: row;
-    margin: 12px 0;
+    margin: 10px 0;
   }
   
   .matkul {
-    padding: 1.25rem;
+    padding: 1rem;
     width: 55%;
     border-bottom: none;
     border-right: 2px solid rgba(0, 122, 255, 0.15);
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
   
   .dosen {
-    padding: 1.25rem;
+    padding: 1rem;
     width: 45%;
-    font-size: 0.95rem;
+    font-size: 0.875rem;
   }
   
   .jadwal-ujian1:hover {
     transform: translateX(4px);
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-dock-jadwal {
+    max-width: 700px;
   }
 }
 
@@ -935,4 +943,21 @@
   text-decoration: none;
   display: inline-block;
   margin: 1em;
+}
+
+.btn-ctaindex {
+  background: linear-gradient(135deg, #3bb7ff 0%, #1797ff 100%);
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.8125rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(23, 131, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+.bodyjadwalcard {
+  padding: 1em;
 }
