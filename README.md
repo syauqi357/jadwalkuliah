@@ -28,4 +28,6 @@ tabel nya sebagai berikut
 | Jumat 07 Nov 2025 | R. 1 F | Proyek Perangkat Lunak | Prof. Dr. Saiful Bukhori, ST., M.Kom |
 | Jumat 07 Nov 2025 | R. 1 F | tidak ada ujian | tidak ada ujian |
 
+### R.T: Ruang Cadangan Tambahan, Lokasi depan LIFT (ex ruang D)
+
 > goodluck!
