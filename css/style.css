@@ -965,7 +965,7 @@
 
 .ddt-container {
   display: flex;
-  /* flex-direction: column; */
+  justify-content: space-between;
   gap: 1em;
 }
 
@@ -980,7 +980,20 @@
   border: 1px solid rgba(201, 207, 20, 0.3);
   width: fit-content;
   /* box-shadow: 0 1px 4px rgba(0, 122, 255, 0.1); */
-  
+  justify-content: space-between;
+}
+
+.room-t {
+font-size: 0.875rem;
+  font-weight: 700;
+  color: #7c7000;
+  margin-bottom: 0.75rem;
+  background: linear-gradient(135deg, #fdf9e3 0%, #fbf7bb 100%);
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  border: 1px solid rgba(158, 142, 0, 0.3);
+  width: fit-content;
+  box-shadow: 0 1px 4px rgba(255, 230, 0, 0.1);
   /* layout */
   display: flex;
   justify-content: center;
