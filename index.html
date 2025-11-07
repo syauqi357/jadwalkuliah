@@ -15,6 +15,8 @@
 />
 
 <link rel="stylesheet" href="css/style.css" />
+<!-- navbar.css di folder css -->
+<link rel="stylesheet" href="css/navbar.css" />
 
 <!-- the web itself -->
 
@@ -157,310 +159,334 @@
         </span>
         <p>jadwal ujian is here</p>
       </button>
+      <!-- button ujian -->
     </a>
-
-    <!-- kok iso di preview malah ilang goblok ancen -->
+    <a href="ujianuas.html" class="navbar-cta">
+      <button class="btn-ctaujian">
+        <span class="icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 16 16"
+            fill="#ffffff"
+            id="Warning--Streamline-Phosphor"
+            height="16"
+            width="16"
+          >
+            <desc>Warning Streamline Icon: https://streamlinehq.com</desc>
+            <path
+              d="m15.6159625 12.48605 -6.1211875 -10.63035625c-0.6698625 -1.1405375 -2.3189875 -1.1405375 -2.98885 0L0.3847375 12.48605c-0.29965 0.512875 -0.29965 1.1474375 0 1.6603125 0.30745625 0.533475 0.87873125 0.85965 1.494425 0.85325625h12.242375c0.61519375 0.0058875 1.18581875 -0.32021875 1.493025 -0.85325625 0.30008125 -0.512625 0.30061875 -1.1471875 0.0014 -1.6603125Zm-0.97085 1.09964375c-0.10865 0.18533125 -0.308775 0.2977 -0.523575 0.29398125H1.8791625c-0.2148 0.00371875 -0.414925 -0.10865 -0.523575 -0.29398125 -0.09844375 -0.166675 -0.09844375 -0.3737 0 -0.540375l6.1211875 -10.63035625c0.23796875 -0.396 0.81198125 -0.396 1.04995 0l6.1211875 10.63035625c0.09758125 0.16718125 0.09650625 0.3742125 -0.0028 0.540375Zm-7.20473125 -4.1857875v-2.79985625c0 -0.43106875 0.4666375 -0.70048125 0.83995625 -0.48495 0.17325625 0.10003125 0.27998125 0.2848875 0.27998125 0.48495v2.79985625c0 0.4310625 -0.46664375 0.70048125 -0.83995625 0.48495 -0.17325625 -0.10003125 -0.27998125 -0.28489375 -0.27998125 -0.48495Zm1.399925 2.51986875c0 0.6466 -0.6999625 1.050725 -1.2599375 0.727425 -0.55996875 -0.3233 -0.55996875 -1.13155 0 -1.45485 0.1277 -0.073725 0.272525 -0.1125375 0.41998125 -0.11253125 0.46388125 0.00001875 0.83995625 0.376075 0.83995625 0.83995625Z"
+              stroke-width="0.0625"
+            ></path>
+          </svg>
+        </span>
+        <p>jadwal ujian UAS is here</p>
+      </button>
+    </a>
   </nav>
 </nav>
 
-<!-- content -->
-<pre></pre>
-<div class="container">
-  <div class="header-section">
-    <h1 class="main-title">Jadwal Kuliah</h1>
-    <p class="subtitle">Semester Akademik 2025/2026</p>
-  </div>
+<!-- kok iso di preview malah ilang goblok ancen -->
 
-  <!--   notes -->
-  <div class="notesSchedule">
-    jika terlihat terpotong di modul mobile atau smartphone, silahkan scroll ke
-    kanan
-
-    <div class="iconRight">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="-0.5 -0.5 16 16"
-        fill="none"
-        stroke="#000000"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        class="feather feather-arrow-right-circle"
-        id="Arrow-Right-Circle--Streamline-Feather"
-        height="16"
-        width="16"
-      >
-        <path
-          d="M1.25 7.5a6.25 6.25 0 1 0 12.5 0 6.25 6.25 0 1 0 -12.5 0"
-          stroke-width="1"
-        ></path>
-        <path d="m7.5 10 2.5 -2.5 -2.5 -2.5" stroke-width="1"></path>
-        <path d="m5 7.5 5 0" stroke-width="1"></path>
-      </svg>
+<body>
+  <pre></pre>
+  <div class="container">
+    <div class="header-section">
+      <h1 class="main-title">Jadwal Kuliah</h1>
+      <p class="subtitle">Semester Akademik 2025/2026</p>
     </div>
-  </div>
 
-  <div class="table-wrapper">
-    <div class="table-container">
-      <table class="apple-table">
-        <thead>
-          <tr>
-            <th class="day-col">
-              <div class="header-content">
-                <span class="header-text">Hari</span>
-              </div>
-            </th>
-            <th class="time-col">
-              <div class="header-content">
-                <span class="header-text">Jam</span>
-              </div>
-            </th>
-            <th class="code-col">
-              <div class="header-content">
-                <span class="header-text">Kode MK</span>
-              </div>
-            </th>
-            <th class="subject-col">
-              <div class="header-content">
-                <span class="header-text">Mata Kuliah</span>
-              </div>
-            </th>
-            <th class="credits-col">
-              <div class="header-content">
-                <span class="header-text">SKS</span>
-              </div>
-            </th>
-            <th class="lecturer-col">
-              <div class="header-content">
-                <span class="header-text">Dosen Pengampu</span>
-              </div>
-            </th>
-            <th class="room-col">
-              <div class="header-content">
-                <span class="header-text">Ruang</span>
-              </div>
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr class="table-row monday">
-            <td class="day-cell">
-              <div class="day-content">
-                <span class="day-name">Senin</span>
-                <div class="day-indicator monday-indicator"></div>
-              </div>
-            </td>
-            <td class="time-cell">
-              <span class="time-text">3-6</span>
-            </td>
-            <td class="code-cell">
-              <span class="code-text">MKB14-2442</span>
-            </td>
-            <td class="subject-cell">
-              <div class="subject-content">
-                <span class="subject-name">Pemrograman Mobile Lanjut</span>
-              </div>
-            </td>
-            <td class="credits-cell">
-              <div class="credits-badge">
-                <span class="credits-number">4</span>
-              </div>
-            </td>
-            <td class="lecturer-cell">
-              <span class="lecturer-name">Abdul Rokhim, M.Kom</span>
-            </td>
-            <td class="room-cell">
-              <div class="room-badge lab">
-                <span class="room-text">Lab E</span>
-              </div>
-            </td>
-          </tr>
-          <tr class="table-row tuesday">
-            <td class="day-cell">
-              <div class="day-content">
-                <span class="day-name">Selasa</span>
-                <div class="day-indicator tuesday-indicator"></div>
-              </div>
-            </td>
-            <td class="time-cell">
-              <span class="time-text">3-6</span>
-            </td>
-            <td class="code-cell">
-              <span class="code-text">MKB14-2439</span>
-            </td>
-            <td class="subject-cell">
-              <div class="subject-content">
-                <span class="subject-name">Pemrograman Web Lanjut</span>
-              </div>
-            </td>
-            <td class="credits-cell">
-              <div class="credits-badge">
-                <span class="credits-number">4</span>
-              </div>
-            </td>
-            <td class="lecturer-cell">
-              <span class="lecturer-name">Mukhamad Fatkhur Roji, M.Kom</span>
-            </td>
-            <td class="room-cell">
-              <div class="room-badge lab">
-                <span class="room-text">Lab D</span>
-              </div>
-            </td>
-          </tr>
-          <tr class="table-row wednesday">
-            <td class="day-cell">
-              <div class="day-content">
-                <span class="day-name">Rabu</span>
-                <div class="day-indicator wednesday-indicator"></div>
-              </div>
-            </td>
-            <td class="time-cell">
-              <span class="time-text">3-5</span>
-            </td>
-            <td class="code-cell">
-              <span class="code-text">MKB14-2330</span>
-            </td>
-            <td class="subject-cell">
-              <div class="subject-content">
-                <span class="subject-name">Riset IT</span>
-              </div>
-            </td>
-            <td class="credits-cell">
-              <div class="credits-badge">
-                <span class="credits-number">3</span>
-              </div>
-            </td>
-            <td class="lecturer-cell">
-              <span class="lecturer-name"
-                >Erri Wahyu Puspitarini, S.Kom, M.MT</span
-              >
-            </td>
-            <td class="room-cell">
-              <div class="room-badge classroom">
-                <span class="room-text">1-H</span>
-              </div>
-            </td>
-          </tr>
-          <tr class="table-row thursday-1">
-            <td class="day-cell">
-              <div class="day-content">
-                <span class="day-name">Kamis</span>
-                <div class="day-indicator thursday-indicator"></div>
-              </div>
-            </td>
-            <td class="time-cell">
-              <span class="time-text">1-3</span>
-            </td>
-            <td class="code-cell">
-              <span class="code-text">MPK14-2301</span>
-            </td>
-            <td class="subject-cell">
-              <div class="subject-content">
-                <span class="subject-name">Pendidikan Agama</span>
-              </div>
-            </td>
-            <td class="credits-cell">
-              <div class="credits-badge">
-                <span class="credits-number">3</span>
-              </div>
-            </td>
-            <td class="lecturer-cell">
-              <span class="lecturer-name">Abu Nasir, M.Ag</span>
-            </td>
-            <td class="room-cell">
-              <div class="room-badge classroom">
-                <span class="room-text">1-F</span>
-              </div>
-            </td>
-          </tr>
-          <tr class="table-row thursday-2">
-            <td class="day-cell">
-              <div class="day-content">
-                <span class="day-name">Kamis</span>
-                <div class="day-indicator thursday-indicator"></div>
-              </div>
-            </td>
-            <td class="time-cell">
-              <span class="time-text">4-6</span>
-            </td>
-            <td class="code-cell">
-              <span class="code-text">MPB14-2302</span>
-            </td>
-            <td class="subject-cell">
-              <div class="subject-content">
-                <span class="subject-name"
-                  >Etika Profesi dan Pendidikan Anti Korupsi</span
+    <!--   notes -->
+    <div class="notesSchedule">
+      jika terlihat terpotong di modul mobile atau smartphone, silahkan scroll
+      ke kanan
+
+      <div class="iconRight">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="-0.5 -0.5 16 16"
+          fill="none"
+          stroke="#000000"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="feather feather-arrow-right-circle"
+          id="Arrow-Right-Circle--Streamline-Feather"
+          height="16"
+          width="16"
+        >
+          <path
+            d="M1.25 7.5a6.25 6.25 0 1 0 12.5 0 6.25 6.25 0 1 0 -12.5 0"
+            stroke-width="1"
+          ></path>
+          <path d="m7.5 10 2.5 -2.5 -2.5 -2.5" stroke-width="1"></path>
+          <path d="m5 7.5 5 0" stroke-width="1"></path>
+        </svg>
+      </div>
+    </div>
+
+    <div class="table-wrapper">
+      <div class="table-container">
+        <table class="apple-table">
+          <thead>
+            <tr>
+              <th class="day-col">
+                <div class="header-content">
+                  <span class="header-text">Hari</span>
+                </div>
+              </th>
+              <th class="time-col">
+                <div class="header-content">
+                  <span class="header-text">Jam</span>
+                </div>
+              </th>
+              <th class="code-col">
+                <div class="header-content">
+                  <span class="header-text">Kode MK</span>
+                </div>
+              </th>
+              <th class="subject-col">
+                <div class="header-content">
+                  <span class="header-text">Mata Kuliah</span>
+                </div>
+              </th>
+              <th class="credits-col">
+                <div class="header-content">
+                  <span class="header-text">SKS</span>
+                </div>
+              </th>
+              <th class="lecturer-col">
+                <div class="header-content">
+                  <span class="header-text">Dosen Pengampu</span>
+                </div>
+              </th>
+              <th class="room-col">
+                <div class="header-content">
+                  <span class="header-text">Ruang</span>
+                </div>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table-row monday">
+              <td class="day-cell">
+                <div class="day-content">
+                  <span class="day-name">Senin</span>
+                  <div class="day-indicator monday-indicator"></div>
+                </div>
+              </td>
+              <td class="time-cell">
+                <span class="time-text">3-6</span>
+              </td>
+              <td class="code-cell">
+                <span class="code-text">MKB14-2442</span>
+              </td>
+              <td class="subject-cell">
+                <div class="subject-content">
+                  <span class="subject-name">Pemrograman Mobile Lanjut</span>
+                </div>
+              </td>
+              <td class="credits-cell">
+                <div class="credits-badge">
+                  <span class="credits-number">4</span>
+                </div>
+              </td>
+              <td class="lecturer-cell">
+                <span class="lecturer-name">Abdul Rokhim, M.Kom</span>
+              </td>
+              <td class="room-cell">
+                <div class="room-badge lab">
+                  <span class="room-text">Lab E</span>
+                </div>
+              </td>
+            </tr>
+            <tr class="table-row tuesday">
+              <td class="day-cell">
+                <div class="day-content">
+                  <span class="day-name">Selasa</span>
+                  <div class="day-indicator tuesday-indicator"></div>
+                </div>
+              </td>
+              <td class="time-cell">
+                <span class="time-text">3-6</span>
+              </td>
+              <td class="code-cell">
+                <span class="code-text">MKB14-2439</span>
+              </td>
+              <td class="subject-cell">
+                <div class="subject-content">
+                  <span class="subject-name">Pemrograman Web Lanjut</span>
+                </div>
+              </td>
+              <td class="credits-cell">
+                <div class="credits-badge">
+                  <span class="credits-number">4</span>
+                </div>
+              </td>
+              <td class="lecturer-cell">
+                <span class="lecturer-name">Mukhamad Fatkhur Roji, M.Kom</span>
+              </td>
+              <td class="room-cell">
+                <div class="room-badge lab">
+                  <span class="room-text">Lab D</span>
+                </div>
+              </td>
+            </tr>
+            <tr class="table-row wednesday">
+              <td class="day-cell">
+                <div class="day-content">
+                  <span class="day-name">Rabu</span>
+                  <div class="day-indicator wednesday-indicator"></div>
+                </div>
+              </td>
+              <td class="time-cell">
+                <span class="time-text">3-5</span>
+              </td>
+              <td class="code-cell">
+                <span class="code-text">MKB14-2330</span>
+              </td>
+              <td class="subject-cell">
+                <div class="subject-content">
+                  <span class="subject-name">Riset IT</span>
+                </div>
+              </td>
+              <td class="credits-cell">
+                <div class="credits-badge">
+                  <span class="credits-number">3</span>
+                </div>
+              </td>
+              <td class="lecturer-cell">
+                <span class="lecturer-name"
+                  >Erri Wahyu Puspitarini, S.Kom, M.MT</span
                 >
-              </div>
-            </td>
-            <td class="credits-cell">
-              <div class="credits-badge">
-                <span class="credits-number">3</span>
-              </div>
-            </td>
-            <td class="lecturer-cell">
-              <span class="lecturer-name"
-                >Kurniawan Wahyu Haryanto, S.Kom, M.MT</span
-              >
-            </td>
-            <td class="room-cell">
-              <div class="room-badge classroom">
-                <span class="room-text">1-F</span>
-              </div>
-            </td>
-          </tr>
-          <tr class="table-row friday">
-            <td class="day-cell">
-              <div class="day-content">
-                <span class="day-name">Jumat</span>
-                <div class="day-indicator friday-indicator"></div>
-              </div>
-            </td>
-            <td class="time-cell">
-              <span class="time-text">3-5</span>
-            </td>
-            <td class="code-cell">
-              <span class="code-text">MKB14-2322</span>
-            </td>
-            <td class="subject-cell">
-              <div class="subject-content">
-                <span class="subject-name">Proyek Perangkat Lunak</span>
-              </div>
-            </td>
-            <td class="credits-cell">
-              <div class="credits-badge">
-                <span class="credits-number">3</span>
-              </div>
-            </td>
-            <td class="lecturer-cell">
-              <span class="lecturer-name"
-                >Prof. Dr. Saiful Bukhori, ST., M.Kom</span
-              >
-            </td>
-            <td class="room-cell">
-              <div class="room-badge classroom">
-                <span class="room-text">1-F</span>
-              </div>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
-    <div class="table-summary">
-      <div class="summary-item">
-        <span class="summary-label">Total SKS:</span>
-        <span class="summary-value">20</span>
+              </td>
+              <td class="room-cell">
+                <div class="room-badge classroom">
+                  <span class="room-text">1-H</span>
+                </div>
+              </td>
+            </tr>
+            <tr class="table-row thursday-1">
+              <td class="day-cell">
+                <div class="day-content">
+                  <span class="day-name">Kamis</span>
+                  <div class="day-indicator thursday-indicator"></div>
+                </div>
+              </td>
+              <td class="time-cell">
+                <span class="time-text">1-3</span>
+              </td>
+              <td class="code-cell">
+                <span class="code-text">MPK14-2301</span>
+              </td>
+              <td class="subject-cell">
+                <div class="subject-content">
+                  <span class="subject-name">Pendidikan Agama</span>
+                </div>
+              </td>
+              <td class="credits-cell">
+                <div class="credits-badge">
+                  <span class="credits-number">3</span>
+                </div>
+              </td>
+              <td class="lecturer-cell">
+                <span class="lecturer-name">Abu Nasir, M.Ag</span>
+              </td>
+              <td class="room-cell">
+                <div class="room-badge classroom">
+                  <span class="room-text">1-F</span>
+                </div>
+              </td>
+            </tr>
+            <tr class="table-row thursday-2">
+              <td class="day-cell">
+                <div class="day-content">
+                  <span class="day-name">Kamis</span>
+                  <div class="day-indicator thursday-indicator"></div>
+                </div>
+              </td>
+              <td class="time-cell">
+                <span class="time-text">4-6</span>
+              </td>
+              <td class="code-cell">
+                <span class="code-text">MPB14-2302</span>
+              </td>
+              <td class="subject-cell">
+                <div class="subject-content">
+                  <span class="subject-name"
+                    >Etika Profesi dan Pendidikan Anti Korupsi</span
+                  >
+                </div>
+              </td>
+              <td class="credits-cell">
+                <div class="credits-badge">
+                  <span class="credits-number">3</span>
+                </div>
+              </td>
+              <td class="lecturer-cell">
+                <span class="lecturer-name"
+                  >Kurniawan Wahyu Haryanto, S.Kom, M.MT</span
+                >
+              </td>
+              <td class="room-cell">
+                <div class="room-badge classroom">
+                  <span class="room-text">1-F</span>
+                </div>
+              </td>
+            </tr>
+            <tr class="table-row friday">
+              <td class="day-cell">
+                <div class="day-content">
+                  <span class="day-name">Jumat</span>
+                  <div class="day-indicator friday-indicator"></div>
+                </div>
+              </td>
+              <td class="time-cell">
+                <span class="time-text">3-5</span>
+              </td>
+              <td class="code-cell">
+                <span class="code-text">MKB14-2322</span>
+              </td>
+              <td class="subject-cell">
+                <div class="subject-content">
+                  <span class="subject-name">Proyek Perangkat Lunak</span>
+                </div>
+              </td>
+              <td class="credits-cell">
+                <div class="credits-badge">
+                  <span class="credits-number">3</span>
+                </div>
+              </td>
+              <td class="lecturer-cell">
+                <span class="lecturer-name"
+                  >Prof. Dr. Saiful Bukhori, ST., M.Kom</span
+                >
+              </td>
+              <td class="room-cell">
+                <div class="room-badge classroom">
+                  <span class="room-text">1-F</span>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
-      <div class="summary-item">
-        <span class="summary-label">Total Mata Kuliah:</span>
-        <span class="summary-value">6</span>
+
+      <div class="table-summary">
+        <div class="summary-item">
+          <span class="summary-label">Total SKS:</span>
+          <span class="summary-value">20</span>
+        </div>
+        <div class="summary-item">
+          <span class="summary-label">Total Mata Kuliah:</span>
+          <span class="summary-value">6</span>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
+  <!-- content -->
+
+  <script src="js/script.js"></script>
+
+  <!-- docs -->
+</body>
 <!-- content -->
-
-<script src="js/script.js"></script>
-
-<!-- docs -->

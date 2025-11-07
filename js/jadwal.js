@@ -76,9 +76,15 @@ async function loadJadwal() {
         dosenDiv.className = "dosen";
         dosenDiv.textContent = ujian.dosen;
 
+        const jamDiv = document.createElement("div");
+        jamDiv.className = "jam";
+        jamDiv.textContent = ujian.jam;
+
         // Append matkul and dosen to ujianDiv
         // memasukkan matkul dan dosen ke dalam jadwal-ujian1
+        // ujianDiv.appendChild(jamDiv);
         ujianDiv.appendChild(matkulDiv);
+        matkulDiv.appendChild(jamDiv)
         ujianDiv.appendChild(dosenDiv);
         // Append ujianDiv to card
         // memasukkan jadwal-ujian1 ke dalam card-dock-jadwal dan mewrap keseluruhan
